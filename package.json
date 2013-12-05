@@ -1,0 +1,37 @@
+{
+  "name": "bitbucket.node",
+  "description": "Bitbucket 2.0 API client for node.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattinsler/bitbucket.node",
+  "author": {
+    "name": "Matt Insler",
+    "email": "matt.insler@gmail.com",
+    "url": "http://www.mattinsler.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattinsler/bitbucket.node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattinsler/bitbucket.node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattinsler/bitbucket.node/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "dist/bitbucket",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "rest.node": "0.4.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "keywords": []
+}
